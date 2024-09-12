@@ -45,18 +45,17 @@ function App() {
   }
 
   // const toggleMode_Green = () => {
-  //   if (mode === 'light' || 'dark') {
+  //   if (mode === 'light') {
   //     setMode('dark')
   //     document.body.style.backgroundColor = '#023020';
   //     showAlert("Dark mode has been enabled", "success");
   //     document.title = 'TextUtils - Dark Mode'
 
   //   }
-  //   else {
+  //   else{
   //     setMode('light')
   //     document.body.style.backgroundColor = 'white';
   //     showAlert("Light mode has been enabled", "success");
-
 
   //   }
   // }
@@ -84,7 +83,7 @@ function App() {
     <>
       {/* <Navbar/> */}
       {/* <Router> */}
-      <Navbar title="TextUtils" aboutText="About TextUtils" mode={mode} toggleMode={toggleMode} />
+      <Navbar title="TextUtils" aboutText="About TextUtils" mode={mode}  toggleMode={toggleMode} />
       <Alert alert={alert} />
       <div className="container">
         {/* <Routes>
