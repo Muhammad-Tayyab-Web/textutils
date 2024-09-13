@@ -90,7 +90,7 @@ function App() {
           <Route exact path="/about"
           element={<About />}/> */}
         {/* </Routes> */}
-        <TextForm showAlert={showAlert} heading="Enter the text to analyze below" mode={mode} />
+        <TextForm showAlert={showAlert} heading="TextUtils Word Counter and Character Counter." mode={mode} />
 
       </div>
       {/* </Router> */}
