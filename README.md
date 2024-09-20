@@ -1,2 +1,2 @@
 # textutils
- React First Project
+ React Project
